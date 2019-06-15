@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <div>
+            <div class="w3-padding w3-panel w3-blue w3-card-4">
+                <h1>PLC CONTROLLER</h1>
+            </div>
+            <div class="w3-row">
+                <div class="w3-container w3-col m4 l3 w3-border" style="display: none">
+                    <div class="w3-card-4 w3-yellow w3-round">
+                        <h2 class="w3-padding">UART</h2>
+                    </div>
+                    <select id="slt"></select>
+                    <div>
+                    <button class="w3-button w3-blue w3-round w3-right-align" id="btnSearch">SEARCH</button>
+                    <button class="w3-button w3-blue w3-round w3-right-align" id="btnAddDevice">APPLY</button>
+                    </div>
+                </div>
+                <div class="w3-container w3-border">
+                    <!-- <div class="w3-card-4 w3-yellow w3-round">
+                        <h2 class="w3-padding">View device</h2>
+                    </div> -->
+                    <div class="w3-row">
+                        <div class="w3-col l2 m2 w3-padding">
+                            <button class="w3-button w3-green w3-block w3-xlarge w3-round" id="btnD1">D1-ON</button>
+                        </div>
+                        <div class="w3-col l2 m2 w3-padding">
+                            <button class="w3-button w3-green w3-block w3-xlarge w3-round" id="btnD2">D2-ON</button>
+                        </div>
+                        <div class="w3-col l2 m2 w3-padding">
+                            <button class="w3-button w3-green w3-block w3-xlarge w3-round" id="btnD3">D3-ON</button>
+                        </div>
+                        <div class="w3-col l2 m2 w3-padding">
+                            <button class="w3-button w3-green w3-block w3-xlarge w3-round" id="btnD4">D4-ON</button>
+                        </div>
+                        <div class="w3-col l2 m2 w3-padding">
+                            <button class="w3-button w3-green w3-block w3-xlarge w3-round" id="btnD5">D5-ON</button>
+                        </div>
+                        <div class="w3-col l2 m2 w3-padding">
+                            <button class="w3-button w3-green w3-block w3-xlarge w3-round" id="btnD6">D6-ON</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </body>
+    <script src="js/control.js"></script>
+</html>
